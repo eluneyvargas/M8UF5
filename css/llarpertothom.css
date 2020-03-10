@@ -1,3 +1,38 @@
 body {
-background-color: #FDFFDB
+  background: #FFFCAF;
+  background: -moz-linear-gradient(top, #FFFCAF 0%, #E0FFCB 50%, #FF7CAC 100%);
+  background: -webkit-linear-gradient(top, #FFFCAF 0%, #E0FFCB 50%, #FF7CAC 100%);
+  background: linear-gradient(to bottom, #FFFCAF 0%, #E0FFCB 50%, #FF7CAC 100%);
+}
+header {
+
+}
+
+.menu {
+  overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  color: #ff59cd;
+}
+
+.menu a.active {
+  color: #ff59cd;
+}
+.imginici {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align:center;
 }
