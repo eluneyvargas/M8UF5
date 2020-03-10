@@ -36,3 +36,13 @@ header {
 p {
   text-align:center;
 }
+h1{
+  text-align:center;
+}
+legend{
+  text-align: center;
+}
+
+imgprincipal{
+  align-items: center;
+}
