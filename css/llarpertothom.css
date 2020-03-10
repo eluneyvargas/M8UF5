@@ -4,9 +4,6 @@ body {
   background: -webkit-linear-gradient(top, #FFFCAF 0%, #E0FFCB 50%, #FF7CAC 100%);
   background: linear-gradient(to bottom, #FFFCAF 0%, #E0FFCB 50%, #FF7CAC 100%);
 }
-header {
-
-}
 
 .menu {
   overflow: hidden;
