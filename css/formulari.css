@@ -1,0 +1,16 @@
+body{
+  background-color: lightblue;
+}
+
+form {
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+}
+.items{
+  align-items: center;
+  text-align:center;
+}
+h1 {
+    text-align:center;
+  }
