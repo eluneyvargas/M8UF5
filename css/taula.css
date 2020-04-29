@@ -1,9 +1,0 @@
-table, th, td {
-  border: 1px solid black;
-}
- th {
-  background-color: #3500c7;
-  color: white;
-}
-tr:nth-child(even) {background-color: #fdffe8;}
-

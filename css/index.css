@@ -1,0 +1,23 @@
+.imginici {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align:center;
+}
+h2{
+  font-size: 20px;
+  text-decoration: underline;
+}
+.estadistica{
+  width: 20px;
+  height: 20px;
+}
+aside{
+  margin-left: 200px;
+}
+iframe{
+  width: 45%;
+  height: 1000px;
+}

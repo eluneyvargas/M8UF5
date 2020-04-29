@@ -1,0 +1,56 @@
+body {
+  background: #FFFCAF;
+}
+.menu {
+  overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  color: #ff59cd;
+}
+
+.menu a.active {
+  color: #ff59cd;
+}
+header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1{
+  text-align:center;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+
+}
+h6{
+  text-align: center;
+  font-size: 15px;
+}
+#imgprincipal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  margin-bottom: 80px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+footer{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}

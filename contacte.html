@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<!-- Què fa aquesta etiqueta link, perquè serveix? modifica-la posant el teu favicon-->
-		<link rel= "shortcut icon" href="image/favicon.jpg">
-		<!-- Afexeix l'etiqueta per enllaçar el full d'estil aquí -->
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="./css/llarpertothom.css">
-		<title></title>
-    </head>
+  <head>
+    <title> Contacte </title>
+    <link rel= "shortcut icon" href="media/favicon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/headerfooter.css">
+    <link rel="stylesheet" href="./css/contacte.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 
-    <body>
-	  <!-- Substitueix totes les etiquetes div que trobis per etiquetes semàntiques de maquetació HTML5
-		   o afegeix d'altres EXCEPTE ELS DIV DINS DEL FORM!!! -->
-	  <header><h1 id="form">Contactan's</h1></header>
+  </head>
+
+  <body>
+    <header>
+  		<h1>Llar per tothom </h1>
+      <br>
+  		<h6>En lluita constant contra el sense llarisme!</h6>
+      <br>
+  		<img src="./media/inici.jpg" alt="sensellar.jpg"height="200px" id=imgprincipal>
+      <nav class=menu>
+        <a href="./index.html">Inici</a>
+        <a href="./quisom.html">Qui som?</a>
+        <a href="./contacte.html">Contacte</a>
+        <a href="./enllaços.html">Enllaços d'interes</a>
+      </nav>
+    </header>
 	  <main>
 		  <!-- Explica els atributs de l'etiqueta form -->
+      <h2> Contactan's</h2>
 		  <form>
         <section class="items">
           <label for="fname">Nom</label>
@@ -69,9 +82,14 @@
         <section class="items">
           <button type="button" onclick="alert('Missatge enviat! Gràcies per contactar-nos!')">Envia</button>
         </section>
-    </form>
-
+      </form>
 	  </main>
-	  <footer><p>Posa aquí el teu peu</p></footer>
-    </body>
+    <br>
+    <footer>
+      Creat per Eluney Vargas
+      <br>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Llicència de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+      <br />Aquesta obra està subjecta a una llicència de <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Reconeixement-NoComercial 4.0 Internacional de Creative Commons</a>
+    </footer>
+  </body>
 </html>

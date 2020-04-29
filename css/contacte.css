@@ -1,6 +1,7 @@
-body{
-  background-color: lightblue;
-}
+h2{
+    font-size: 20px;
+    text-decoration: underline;
+  }
 
 form {
   /* Centrar el formulario en la página */
@@ -11,6 +12,7 @@ form {
   align-items: center;
   text-align:center;
 }
-h1 {
+
+#form {
     text-align:center;
   }
