@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/headerfooter.css">
     <link rel="stylesheet" href="./css/contacte.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -17,32 +17,31 @@
       <br>
   		<h6>En lluita constant contra el sense llarisme!</h6>
       <br>
-  		<img src="./media/inici.jpg" alt="sensellar.jpg"height="200px" id=imgprincipal>
+  		<img src="./media/inici.jpg" alt="sensellar.jpg" height="200" id=imgprincipal>
       <nav class=menu>
         <a href="./index.html">Inici</a>
         <a href="./quisom.html">Qui som?</a>
+        <a href="./enllaços.html">Informació d'interès</a>
         <a href="./contacte.html">Contacte</a>
-        <a href="./enllaços.html">Informació d'interes</a>
       </nav>
     </header>
 	  <main>
-		  <!-- Explica els atributs de l'etiqueta form -->
       <h2> Contactan's</h2>
 		  <form>
         <section class="items">
-          <label for="fname">Nom</label>
+          <label>Nom</label>
           <br>
-          <input type="text" id="nom" name="firstname" placeholder="El teu nom...">
+          <input type="text" placeholder="El teu nom...">
         </section>
         <br>
         <section class="items">
-          <label for="lname">Cognoms</label>
+          <label>Cognoms</label>
           <br>
-          <input type="text" id="lname" name="lastname" placeholder="El teu cognom...">
+          <input type="text" placeholder="El teu cognom...">
         </section>
         <br>
         <section class="items">
-          <label for="country">Des d'on ens contactes?</label>
+          <label>Des d'on ens contactes?</label>
           <select >
             <option >Catalunya</option>
             <option >Comunitat Valenciana</option>
@@ -68,16 +67,16 @@
         </section>
         <br>
         <section class="items">
-          <label for="dubtes">Sobre què tens dubtes?</label>
-          <input type="checkbox"/>CSS
-          <input type="checkbox"/>HTML
-          <input type="checkbox"/>JS
+          <input type="checkbox"/>Vull participar activament. <br>
+          <input type="checkbox"/>Vull Informació. <br>
+          <input type="checkbox"/>Conec a algú que es troba en situació de risc/al carrer.<br>
+          <input type="checkbox"/>Estic en una situació vulnerable.
         </section>
         <br>
         <section class="items">
-          <label for="subject">Comentari</label>
+          <label >Comentari</label>
           <br>
-          <textarea id="subject" name="subject" placeholder="Especificament, quins son els teus dubtes? " style="height:170px"></textarea>
+          <textarea placeholder="Comenta'ns una miqueta més el punt anterior" style="height:170px"></textarea>
         </section>
         <section class="items">
           <button class="btn" type="button" onclick="alert('Missatge enviat! Gràcies per contactar-nos!')">Envia</button>

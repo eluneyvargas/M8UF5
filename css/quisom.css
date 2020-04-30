@@ -4,3 +4,10 @@
   margin-right: auto;
   border-radius: 50%;
 }
+main{
+    font-family: 'Baloo 2', cursive;
+}
+
+p, ul{
+  font-size: 20px;
+}

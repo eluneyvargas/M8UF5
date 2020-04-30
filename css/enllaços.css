@@ -8,7 +8,6 @@ td {
 }
 table, tr, td {
   border-bottom: 1px dotted black;
-  border-bottom: 1px dotted black;
 }
 
 .estadistica{
@@ -17,11 +16,32 @@ table, tr, td {
 }
 aside{
   width: 25%;
+  display: inline-grid;
+  margin-left: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: #B3a580;
+
 }
 strong{
   font-weight: bold;
 }
 
+p,ul{
+  font-size: 20px;
+
+}
+main{
+    font-family: 'Baloo 2', cursive;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 40px;
+}
+
 #contingut{
   display: flex;
+
 }
