@@ -21,6 +21,7 @@ body {
 .menu a.active {
   color: #ff59cd;
 }
+
 nav{
   display: flex;
   justify-content: center;
@@ -57,8 +58,15 @@ body{
 footer{
   margin: auto;
   width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+}
+#cpe{
+  text-align: center;
+  font-size: 15px;
+}
+#cc{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2{
   font-size: 30px;
