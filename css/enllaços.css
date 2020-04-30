@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  height: 50px;
+  vertical-align:middle;
+}
+table, tr, td {
+  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+.estadistica{
+  width: 70px;
+  height: 70px;
+}
+aside{
+  width: 25%;
+}
+strong{
+  font-weight: bold;
+}
+
+#contingut{
+  display: flex;
+}

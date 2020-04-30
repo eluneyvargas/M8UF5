@@ -6,32 +6,3 @@
 p {
   text-align:center;
 }
-h2{
-  font-size: 20px;
-  text-decoration: underline;
-}
-.estadistica{
-  width: 100px;
-  height: 100px;
-}
-iframe{
-  width: 45%;
-  height: 1000px;
-}
-table {
-  border-collapse: collapse;
-}
-
-td {
-  height: 50px;
-  vertical-align:middle;
-}
-table, tr, td {
-  border-bottom: 1px dotted black;
-  border-bottom: 1px dotted black;
-}
-aside{
-  display: block;
-  margin-left: auto;
-  width: 25%;
-}
