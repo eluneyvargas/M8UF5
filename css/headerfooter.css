@@ -1,6 +1,41 @@
 body {
   background: #FFFCAF;
 }
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+
+nav li{
+      display:inline-block;
+      padding:5px 20px;
+      background-color:none;
+      text-align:center;
+      color:#000;
+      position:relative;
+}
+
+nav li:hover{
+      background-color:none;
+      color:#ff59cd;
+      }
+
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      background-color:#f6eac2;
+      top:30px;
+      left:0px;
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+}
+/* configuració antigua del meu nav-
 .menu {
   overflow: hidden;
 }
@@ -21,7 +56,7 @@ body {
 .menu a.active {
   color: #ff59cd;
 }
-
+*/
 nav{
   display: flex;
   flex-direction: row;
@@ -46,8 +81,8 @@ h6{
   font-size: 15px;
 }
 #imgprincipal {
-  display: flex;
-  flex-direction: column;
+  width: 75%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
