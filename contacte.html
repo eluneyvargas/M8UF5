@@ -15,14 +15,23 @@
     <header>
   		<h1>Llar per tothom </h1>
       <br>
-  		<h6>En lluita constant contra el sense llarisme!</h6>
+  		<h6>En lluita constant contra el sensellarisme!</h6>
       <br>
-  		<img src="./media/inici.jpg" alt="sensellar.jpg" height="200" id=imgprincipal>
-      <nav class=menu>
-        <a href="./index.html">Inici</a>
-        <a href="./quisom.html">Qui som?</a>
-        <a href="./enllaços.html">Informació d'interès</a>
-        <a href="./contacte.html">Contacte</a>
+  		<img src="./media/inici.jpg" alt="sensellar.jpg" id=imgprincipal>
+      <nav>
+        <ul>
+            <li><a href="./index.html">Inici</a></li>
+            <li><a href="./quisom.html">Qui som?</a></li>
+            <li><a href="#">Que fer si...</a>
+              <ul>
+                <li><a href="./hasvistalgu.html">Has vist algú al carrer</a></li>
+                <li><a href="./estasalcarrer.html">Estas al carrer</a></li>
+                <li><a href="./etquedesalcarrer.html">Et quedes al carrer</a></li>
+              </ul>
+            </li>
+            <li><a href="./enllaços.html">Informació d'interès</a></li>
+            <li><a href="./contacte.html">Contacte</a></li>
+        </ul>
       </nav>
     </header>
 	  <main>
@@ -79,16 +88,14 @@
           <textarea placeholder="Comenta'ns una miqueta més el punt anterior" style="height:170px"></textarea>
         </section>
         <section class="items">
-          <button class="btn" type="button" onclick="alert('Missatge enviat! Gràcies per contactar-nos!')">Envia</button>
+          <button onclick="alert('Missatge enviat! Gràcies per contactar-nos!')">Envia</button>
         </section>
       </form>
 	  </main>
     <br>
     <footer>
-      Creat per Eluney Vargas
-      <br>
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Llicència de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
-      <br />Aquesta obra està subjecta a una llicència de <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Reconeixement-NoComercial 4.0 Internacional de Creative Commons</a>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Llicència de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" id="cc" /><br></a>
+      <p id="cpe">Creat per Eluney Vargas</p>
     </footer>
   </body>
 </html>
