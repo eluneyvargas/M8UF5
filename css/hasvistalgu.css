@@ -11,3 +11,14 @@ q:after {
 }
 main{
     font-family: 'Baloo 2', cursive;
+}
+strong{
+  font-weight: bold;
+}
+p, ul{
+  font-size: 20px;
+}
+.cita {
+  border-left: 6px solid blue;
+  background-color: lightblue;
+}
